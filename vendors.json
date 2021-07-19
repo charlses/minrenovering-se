@@ -1,0 +1,64 @@
+{
+  "animate.css": {
+    "src": "./node_modules/animate.css/*.css",
+    "dest": "assets/vendor/animate.css/",
+    "css_link": "assets/vendor/animate.css/animate.min.css"
+  },
+  "bootstrap": {
+    "src": "./node_modules/bootstrap/dist/**/*",
+    "dest": "assets/vendor/bootstrap/",
+    "css_link": "assets/vendor/bootstrap/css/bootstrap.min.css",
+    "js_link": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+  },
+  "bootstrap-icons": {
+    "src": "./node_modules/bootstrap-icons/font/**/*",
+    "dest": "assets/vendor/bootstrap-icons/",
+    "css_link": "assets/vendor/bootstrap-icons/bootstrap-icons.css"
+  },
+  "boxicons": {
+    "srcs": [
+      {
+        "src": "./node_modules/boxicons/css/*",
+        "dest": "assets/vendor/boxicons/css/"
+      },
+      {
+        "src": "./node_modules/boxicons/fonts/*",
+        "dest": "assets/vendor/boxicons/fonts/"
+      }
+    ],
+    "css_link": "assets/vendor/boxicons/css/boxicons.min.css"
+  },
+  "glightbox": {
+    "src": "./node_modules/glightbox/dist/**/*",
+    "dest": "assets/vendor/glightbox/",
+    "css_link": "assets/vendor/glightbox/css/glightbox.min.css",
+    "js_link": "assets/vendor/glightbox/js/glightbox.min.js"
+  },
+  "isotope-layout": {
+    "src": "./node_modules/isotope-layout/dist/**/*",
+    "dest": "assets/vendor/isotope-layout/",
+    "js_link": "assets/vendor/isotope-layout/isotope.pkgd.min.js"
+  },
+  "php-email-form": {
+    "js_link": "assets/vendor/php-email-form/validate.js"
+  },
+  "purecounterjs": {
+    "src": "./node_modules/@srexi/purecounterjs/dist/purecounter.js",
+    "dest": "assets/vendor/purecounter/",
+    "js_link": "assets/vendor/purecounter/purecounter.js"
+  },
+  "remixicon": {
+    "src": "./node_modules/remixicon/fonts/*",
+    "dest": "assets/vendor/remixicon/",
+    "css_link": "assets/vendor/remixicon/remixicon.css"
+  },
+  "swiper": {
+    "src": [
+      "./node_modules/swiper/swiper-bundle.min.js",
+      "./node_modules/swiper/swiper-bundle.min.css"
+    ],
+    "dest": "assets/vendor/swiper/",
+    "css_link": "assets/vendor/swiper/swiper-bundle.min.css",
+    "js_link": "assets/vendor/swiper/swiper-bundle.min.js"
+  }
+}

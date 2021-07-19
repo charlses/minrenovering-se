@@ -1,0 +1,28 @@
+{% extends "parts/template.html" %}
+{% set page ='index' %}
+
+{% block meta %}
+<title>Hem - Minrenovering</title>
+<meta
+  content="Visionen med MINRenovering är att utöka plattformen så att våra kunder ska kunna vara delaktiga i sina projekt och hitta inspiration till att uppfylla sina byggdrömmar."
+  name="description">
+<meta content="Minrenovering, renovering, målare, målning, måleri, bygg, marmor" name="keywords">
+{% endblock %}
+
+{% block main %}
+
+{% include "sections/hero.html" %}
+
+<main id="main">
+
+  {% include "sections/about-section.html" %}
+
+  {% include "sections/services-section.html" %}
+
+  {% include "sections/portfolio-section.html" %}
+
+  {% include "sections/contact-section.html" %}
+
+</main><!-- End #main -->
+
+{% endblock %}
