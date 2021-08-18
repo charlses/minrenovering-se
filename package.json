@@ -8,9 +8,9 @@
   "license": "https://bootstrapmade.com/license/",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "node_modules/.bin/gulp start",
-    "watch": "node_modules/.bin/gulp watch",
-    "dist": "node_modules/.bin/gulp"
+    "start": "gulp start",
+    "watch": "gulp watch",
+    "dist": "gulp"
   },
   "dependencies": {
     "@srexi/purecounterjs": "^1.1.1",
